@@ -1,0 +1,16 @@
+nav.default {
+
+}
+
+nav.default a {
+  color: white;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
