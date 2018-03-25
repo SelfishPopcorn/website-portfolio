@@ -21,13 +21,33 @@ div.banner {
   background-size: 100%;
 }
 
+div.container {
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+  height: 100%;
+  padding: 15px;
+  background: rgb(244, 244, 244);
+}
+
+div.container img {
+  width: 480px;
+  border-radius: 10px;
+}
+
 .center {
   text-align: center;
 }
 
 body {
-  color: white;
+  font-family: 'Raleway', sans-serif;
+  color: black;
   background: white;
   background-repeat: no-repeat;
-  margin: 0px;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
 }
