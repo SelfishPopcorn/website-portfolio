@@ -4,6 +4,7 @@ nav.default {
   background: #e4e4e4;
   color: #000;
   line-height: 55px;
+  position: fixed;
 }
 
 nav.default a {
@@ -22,18 +23,23 @@ div.banner {
 }
 
 div.container {
-  margin-top: 30px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 30px 200px 30px 200px;
   border-radius: 10px;
-  height: 100%;
-  padding: 15px;
+  padding: 20px 30px;
+  min-height: 525px;
   background: rgb(244, 244, 244);
 }
 
 div.container img {
-  width: 480px;
+  width: 475px;
   border-radius: 10px;
+  float: left;
+  margin-right: 23px;
+  margin-bottom: 20px;
+}
+
+div.container p {
+  text-align: justify;
 }
 
 .center {
@@ -48,6 +54,6 @@ body {
   margin: 0;
 }
 
-h1{
+h1 {
   text-align: center;
 }
